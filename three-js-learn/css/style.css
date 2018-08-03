@@ -1,0 +1,49 @@
+/* For Buttons overlay on canvas */
+body {
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+
+.mdl-card__media > img {
+    max-width: 100%;
+}
+.mdl-card__actions {
+    display: flex;
+    box-sizing:border-box;
+    align-items: center;
+}
+.mdl-card__actions > .mdl-button--icon {
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.mdl-layout-transparent .mdl-layout__header,
+.mdl-layout-transparent .mdl-layout__drawer-button {
+  color: black;
+}
+
+.card-square.mdl-card {
+  width: inherit;
+  height: 320px;
+}
+.card-square > .mdl-card__title {
+  color: #fff;
+}
+
+
+#button-container {
+    display: flex;
+    flex-direction: row;
+    position: inherit;
+    margin: 0 auto;
+    min-width: inherit;
+    z-index: 99;
+}
+
+button {
+  flex-grow: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
